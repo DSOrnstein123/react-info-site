@@ -2,10 +2,10 @@ import reactLogo from "../imgs/react-icon.png";
 
 function Navbar() {
   return (
-    <nav className="navbar">
-      <img src={reactLogo} alt="react-icon" />
-      <h3>ReactFacts</h3>
-      <h4>React course - Project 1</h4>
+    <nav>
+      <img src={reactLogo} alt="react-icon" className="nav-icon" />
+      <h3 className="nav-logo-text">ReactFacts</h3>
+      <h4 className="nav-title">React course - Project 1</h4>
     </nav>
   );
 }

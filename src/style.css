@@ -4,4 +4,36 @@
 
 body {
   margin: 0px;
+  font-family: Inter, sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 30px 25px;
+  height: 90px;
+  background-color: #21222a;
+}
+
+.nav-logo-text,
+.nav-title {
+  margin: 0;
+}
+
+.nav-logo-text {
+  margin-right: auto;
+  color: #61dafb;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.nav-title {
+  font-weight: 600;
+  color: #deebf8;
+}
+
+.nav-icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 8px;
 }
